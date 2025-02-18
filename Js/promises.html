@@ -9,20 +9,54 @@
     <script>
        let a = 10;
 
-let promise = new Promise((resolve, reject) => {
-    if (a > 5) {
-        resolve("Your answer is greater than 5");
-    } else {
-        reject("Your answer is less than or equal to 5");
-    }
-});
-promise
-    .then((message) => {
-        document.write(message);
+// let promise = new Promise((resolve, reject) => {
+//     if (a > 5) {
+//         resolve("Your answer is greater than 5");
+//     } else {
+//         reject("Your answer is less than or equal to 5");
+//     }
+// });
+// promise
+//     .then((message) => {
+//         document.write(message);
+//     })
+//     .catch((err) => {
+//         document.write(err);
+//     });
+
+let data = Promise.allSettled([
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("2 second");
+        }, 2000);
+    }),
+
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("3 second");
+        }, 3000);
+    }),
+
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("4 second");
+        }, 4000);
+    }),
+
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("5 second");
+        }, 5000);
     })
-    .catch((err) => {
-        document.write(err);
+]);
+
+data.then((results) => {
+    results.forEach((result) => {
+        document.write(`${result.status}: ${result.value}<br>`);
     });
+}).catch((error) => {
+    document.write("Something went wrong");
+});
 
     </script>
 </body>
