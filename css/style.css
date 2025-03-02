@@ -1,0 +1,93 @@
+/* .para{
+    background-color: aqua;
+    font-size: 60px; */
+    /* margin: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#para2{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+  width: 30%;
+  border: 2px dotted blue;
+  border-radius: 40px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: greenyellow;
+    border-color: brown;
+    border-top-left-radius: 30px;
+
+}
+
+div{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+ul{
+    display: flexbox;
+    flex
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li{
+    justify-content: center;
+    list-style-type: none;
+    flex: ;
+    
+    
+} */
+
+.box{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    
+    
+}
+.box1{
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box2{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.box3{
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+button :hover{
+    
+}
+
+::after{
+
+}
+::before{
+    
+}
