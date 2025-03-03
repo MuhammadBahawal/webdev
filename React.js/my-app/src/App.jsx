@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello This is our first practise of rect</h1>
-      <Component />
+      <h1>Hello This is our first practise of React</h1>
+      <Component></Component>
     </>
   )
 }
