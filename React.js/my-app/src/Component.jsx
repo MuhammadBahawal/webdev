@@ -1,5 +1,4 @@
 import React from "react";
-import { hydrateRoot } from "react-dom/client";
 
 function Component() {
     return(
@@ -18,6 +17,14 @@ const Fruite = () => {
     </div>
   )
 }
+
+export function Sample(){
+  <>
+  <h1>this is an name exported data </h1>
+  </>
+}
+
+
 
 
 
