@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Component , {Sample} from './Component'
+import Component from './Component'
 
 function App() {
  

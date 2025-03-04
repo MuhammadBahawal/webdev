@@ -18,13 +18,6 @@ const Fruite = () => {
   )
 }
 
-export function Sample(){
-  <>
-  <h1>this is an name exported data </h1>
-  </>
-}
-
-
 
 
 
