@@ -1,0 +1,27 @@
+ideal path/Road map for beginners Who don't know how to start web development 
+
+start from 
+1) HTML
+2) CSS3) JavaScript + ES6
+4) Tailwind CSS
+5) Node.js & Express (for backend) 
+6) React.js (for better performance)
+7) MongoDB (for Database) (if you want to use ORM so start from mongoose then move to  prisma)
+
+After some skill that you have gained from uper road map learn some additional things 
+
+8) Postgress SQL (for structured Data)
+
+Some more technologies that are best for use if you want to learn more 
+
+1) TypeScript
+2) Next.js
+
+things that must me you learn 
+1) Git & GitHub
+2) Deployment (use vercel and if you have big project use digitalocean)
+3) MongoDB Atlas ( if have time)
+4) Pws (if have time)
+
+
+
