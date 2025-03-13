@@ -1,0 +1,17 @@
+.first{
+    background-color: blue;
+}
+.second{
+    height: auto;
+    width:auto;
+    background-image: url(nature.jpg);
+}
+.first{
+    width: 200px;
+    height: 200px;
+
+}
+
+#one{
+    background-color: aqua;
+}

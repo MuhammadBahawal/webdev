@@ -1,0 +1,18 @@
+h1{
+    background-color: red;
+    
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url(nature.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
